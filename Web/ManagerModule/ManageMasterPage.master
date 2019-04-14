@@ -1,0 +1,46 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="ManageMasterPage.master.cs" Inherits="Web_ManagerModule_ManageMasterPage" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head runat="server">
+    <title>个人管理</title>
+    <link rel="Stylesheet" type="text/css" href="../CSS/master.css" />
+    <asp:ContentPlaceHolder id="head" runat="server">
+
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div class="header">
+        <a class="indexA" href="../index.aspx">L2Blog</a>
+        <div class="setStr">
+            <asp:LinkButton ID="lbtToPersonalPage" runat="server" ForeColor="White" 
+                onclick="lbtToPersonalPage_Click"></asp:LinkButton>
+            <asp:LinkButton ID="lbtSetInfo" runat="server" ForeColor="White" 
+                onclick="lbtSetInfo_Click">修改个人资料</asp:LinkButton>
+        </div>
+    </div>
+    <div class="borderDiv"></div>
+    <div class="manageItem">
+        <ul>
+            <li>
+                <asp:LinkButton ID="lkManagePost" runat="server" onclick="lkManagePost_Click">文章管理</asp:LinkButton></li>
+            <li>
+                <asp:LinkButton ID="lkManageType" runat="server" onclick="lkManageType_Click">好友管理</asp:LinkButton></li>
+            <li>
+                <asp:LinkButton ID="lkManagePhoto" runat="server" onclick="lkManagePhoto_Click">管理相册</asp:LinkButton></li>
+            <li>
+                <asp:LinkButton ID="lkManageWrite" runat="server" onclick="lkManageWrite_Click">写文章</asp:LinkButton></li>
+        </ul>
+    </div>
+    
+    <div class="content">
+    <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+    </asp:ContentPlaceHolder>
+    </div>
+    
+    </form>
+</body>
+</html>

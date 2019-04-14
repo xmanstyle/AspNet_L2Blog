@@ -1,0 +1,30 @@
+﻿body {
+}
+.borderDiv2
+{
+    border:1px solid white;
+    padding:10px;
+    width:60%;
+    margin:0px auto;
+    text-align:center;
+}
+table
+{
+    border:1px solid white;
+    margin:0px auto;
+    width:100%;
+}
+.left
+{
+    text-align:left;
+}
+.right
+{   
+    width:100px;
+   border:1px solid white;
+}
+.btSubmit
+{
+    float:right;
+    margin-right:20%;
+}

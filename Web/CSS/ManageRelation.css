@@ -1,0 +1,28 @@
+﻿.applyDiv
+{
+    margin:0px auto;
+    margin-top:10px;
+    width:60%;
+    height:80px;
+    padding-bottom:20px;
+    overflow:auto;
+    border:1px solid white;
+}
+p
+{
+    display:block;
+    margin:0px auto;
+    text-align:center;
+    font-size:25px;
+    color:White;
+    }
+.applyDiv2
+{
+    margin:0px auto;
+    margin-top:10px;
+    width:60%;
+    height:200px;
+    padding-bottom:20px;
+    overflow:auto;
+    border:1px solid white;
+}

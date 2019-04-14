@@ -1,0 +1,83 @@
+﻿body 
+{
+    text-align:center;
+    margin:0px;
+    padding:0px;
+    background:url(../Images/back16.jpg) no-repeat;
+    background-size:cover;
+}
+.siteInfo
+{
+    margin:0px auto;
+    margin-top:20px;
+    border:3px solid white;
+    width:60%;
+    height:300px;
+    color:White;
+}
+.logoDiv
+{
+    padding:10px;
+    margin-top:20px;
+}
+.logoDiv a
+{
+    padding:5px;
+    font-size:30px;
+    color:White;
+    text-decoration:none;
+}
+.logoDiv a:hover
+{
+    border:2px solid white;
+    border-radius:20px;
+    font-weight:bolder;
+    color:Gray;
+}
+p
+{
+    font-family:@Adobe 楷体 Std R;
+    padding:10px;
+    text-align:left;
+    font-weight:bolder;
+    font-size:22px;
+    color:Gray;
+}
+.lyDiv
+{
+    padding:8px;
+    border:3px solid #7FFFD4;
+    float:left;
+    margin-top:5%;
+    margin-left:23%;
+}
+.lyDiv p
+{
+    font-family:@Adobe 楷体 Std R;
+    padding:10px;
+    text-align:left;
+    font-weight:bolder;
+    font-size:30px;
+    color:#00FF7F;
+    display:inline;
+    text-decoration:underline;
+}
+.lcDiv
+{
+    padding:8px;
+    float:right;
+    margin-top:2%;
+    margin-right:30%;
+    border:1px solid #8B2500;
+    text-decoration:none;
+}
+.lcDiv p
+{
+    color:#8B1A1A;
+    font-family:@Adobe 楷体 Std R;
+    padding:10px;
+    text-align:left;
+    font-weight:bolder;
+    font-size:25px;
+    display:inline;
+}

@@ -1,0 +1,14 @@
+﻿body 
+{
+}
+.mainContain
+{
+    margin:0px auto;
+    margin-top:10px;
+    border:1px solid white;
+    height:300px;
+    overflow:auto;
+    padding:20px;
+    width:60%;
+    background-color:transparent;
+}

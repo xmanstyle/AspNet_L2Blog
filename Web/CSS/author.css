@@ -1,0 +1,65 @@
+﻿body 
+{
+    text-align:center;
+    padding:0px;
+    margin:0px;
+    background:#3B4249;
+}
+.backAbout
+{
+    display:inline;
+    padding:5px;
+    width:20px;
+    float:left;
+    margin:0px;
+}
+.backAbout a
+{
+    font-size:20px;
+    color:White;
+    text-decoration:none;
+}
+.backAbout a:hover
+{
+    color:#ff5050;
+    border:1px solid white;
+    border-radius:6px;
+}
+.ly
+{
+    float:left;
+    margin-left:40px;
+    margin-top:20px;
+    display:inline;
+}
+.lc
+{
+    float:right;
+    margin-right:40px;
+    margin-top:20px;
+    display:inline;
+}
+.left
+{
+    text-align:left;
+    padding:10px;
+}
+.right
+{
+    text-align:right;
+    padding:10px;
+}
+table 
+{
+    margin-left:35%;
+    margin-top:5%;
+    font-size:30px;
+    color:#ffffff;
+}
+
+table img 
+{
+    width:50px;
+    height:50px;
+}
+.

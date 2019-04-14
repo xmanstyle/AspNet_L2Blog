@@ -1,0 +1,49 @@
+﻿body 
+{
+    margin:0px;
+    padding:0px;
+    background-image:url(../Images/img3.jpg);
+}
+.indexDiv
+{
+    width:100%;
+    height:76px;
+    padding-top:13px;
+    padding-left:10px;
+   font-size:50px;
+}
+.indexDiv a
+{
+    text-decoration:none;
+    color:White;
+}
+.indexDiv a:hover
+{
+    padding:5px;
+     text-decoration:none;
+     border:2px solid white;
+     color:#D3CEA4;
+     border-radius:20px;
+} 
+.center
+{
+    padding:10px;
+    color:White;
+    font-weight:bolder;
+    width:30%;
+    border:1px solid white;
+    margin:0px auto;
+}
+.tdStyle
+{
+    border:1px solid white;
+    text-align:right;
+}
+.left
+{
+    float:left;
+}
+table
+{
+    margin:0px auto;
+}

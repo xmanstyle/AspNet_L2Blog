@@ -1,0 +1,260 @@
+﻿body 
+{
+    background-image:url(../Images/back1.jpg);
+    overflow:auto;
+}
+.mainPage
+{
+    padding:5px;
+    padding-bottom:20px;
+    overflow:auto;
+    }
+.header
+{
+    padding-top:13px;
+    padding-left:10px;
+    height:76px;
+    font-size:50px;
+}
+
+.header a
+{
+    text-decoration:none;
+    color:White;
+}
+.header a:hover
+{
+    padding:5px;
+     text-decoration:none;
+     border:2px solid white;
+     color:#D3CEA4;
+     border-radius:20px;
+} 
+#exit
+{
+    float:right;
+    margin-top:5px;
+    margin-right:50px;
+    }
+#exit .divExit a
+{
+    font-size:25px;
+    color:white;
+}
+#exit .divExit a:hover
+{
+    font-size:25px;
+    color:#678BCB;
+}
+.personalSaying
+{
+    margin:0px auto;
+    padding-top:15px;
+    height:40px;
+    }
+.personalSaying a
+{
+    border:1px solid white;
+    padding:3px;
+    text-decoration:none;
+    color:White;
+    font-size:20px;
+    background:#B4BFD1;
+}
+.personalSaying a:hover
+{
+    border:2px solid white;
+    padding:3px;
+    text-decoration:none;
+    color:#AA9862;
+    font-size:20px;
+    background-color:transparent;
+}
+
+.personalSaying p
+{
+    font-size:30px;
+    display:inline;
+    margin-left:20px;
+    }
+.borderDiv
+{
+    width:100%;
+	height:12px;
+	background-image:url(../Images/bor.jpg);
+}
+ .divManage
+ {
+     display:inline-block;
+     margin-right:10px;
+ }
+ 
+ .divWrite
+ {
+     display:inline-block;
+ }
+#operate
+{
+    padding:3px;
+    display:inline;
+    float:right;
+    margin-right:50px;
+}
+#manageButton
+{
+    padding:3px;
+    background-color:White;
+}
+#writeButton
+{
+    padding:3px;
+    background-color:White;
+}
+.content
+{
+    width:100%;
+    margin-top:30px;
+}
+.sideLeft
+{
+    text-align:center;
+    width:18%;
+    float:left;
+    height:600px;
+    background-color:#F3F3F3;
+    border-radius:30px;
+}
+.personInfo
+{
+    margin:0px auto;
+    text-align:center;
+    width:80%;
+    height:40%;
+    background-color:White;
+}
+.personInfo p
+{
+    font-size:20px;
+}
+.personDetail
+{
+    margin-left:28%;
+    text-align:left;
+    margin-top:5px;
+    margin-bottom:5px;
+    padding-top:5px;
+    text-decoration:underline;
+    color:Black;
+}
+.blogClassTitle
+{
+    margin:0px auto;
+    margin-top:20%;
+    background-color:White;
+    font-size:20px;
+    width:80%;
+    margin-bottom:0px;
+}
+.blogClass2
+{
+    margin:0px auto;
+    width:80%;
+    height:37%;
+    background-color:#BDC7D7;
+    overflow:auto;
+}
+.allBlog
+{
+    text-align:left;
+    width:58%;
+    float:left;
+    height:800px;
+    margin-left:3%;
+    margin-right:3%;
+    background-color:#D3DEF2;
+    overflow:auto;
+}
+.plZoon
+{
+   border:1px solid white;
+   position:absolute;
+   width:54%;
+   height:50px;
+   bottom:-73%;
+   padding:8px;
+   left:22.5%;   
+   background:#D3E5E5;  
+}
+.showPl
+{
+    border:1px solid white;
+    position:absolute;
+    width:54%;
+    height:100px;
+    overflow:auto;
+    bottom:-60%;
+    padding:8px;
+    left:22.5%;  
+    background:#D3E5E5;
+}
+.blogFooter
+{
+    position:absolute;
+    bottom:-73%;
+    left:36%;
+}
+.allBlog p
+{
+    font-size:20px;
+    text-align:center;
+}
+.postTitleDiv
+{
+    text-align:center;
+    margin-top:20px;
+    background-color:white;
+}
+.relation
+{
+    text-align:center;
+    width:18%;
+    float:right;
+    height:600px;
+    background-color:#F3F3F3;
+    border-radius:30px;
+}
+.relation p
+{
+    font-size:20px;
+}
+.relation .friend
+{
+    margin:0px auto;
+    text-align:center;
+    width:80%;
+    height:40%;
+    background-color:White;
+}
+.friend div
+{
+    margin:0px auto;
+    width:60%;
+    height:40%;
+    background-color:#B4BFD1;
+}
+.relation .fans
+{
+    margin:0px auto;
+    width:80%;
+    height:40%;
+    margin-top:20%;
+    background-color:White;
+}
+.fans div
+{
+    margin:0px auto;
+    width:60%;
+    height:40%;
+    background-color:#B4BFD1;
+}
+

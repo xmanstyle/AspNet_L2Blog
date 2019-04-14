@@ -1,0 +1,17 @@
+﻿
+.uploadDiv
+{
+    text-align:center;
+    margin:0px auto;
+    margin-top:20px;
+}
+.photos
+{
+    margin:0px auto;
+    width:81%;
+    height:auto;
+    margin-top:30px;
+    overflow:auto;
+    height:300px;
+    border:1px solid white;
+}

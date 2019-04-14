@@ -1,0 +1,273 @@
+﻿@charset "gb2312";
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 100%;
+}
+
+body {
+    font-family: "宋体",serif;
+    font-size: 100%;
+}
+#loginPanel
+{
+    margin-top:10px;
+}
+.logoA
+{
+    text-decoration:none;
+    color:White;
+}
+.a1 
+{
+    float: right;
+    color: white;
+    height:40px;
+    margin-right: 150px;
+    padding-bottom:5px;
+    text-decoration:none;
+}
+.a1 a
+{
+    border:1px solid white;
+    padding:5px;
+    font-weight:bold;
+    color:White;
+    margin-bottom:10px;
+    text-decoration:none;
+}
+.a1 a:hover
+{
+    border:1px solid white;
+    padding:5px;
+    font-weight:bold;
+    color:black;
+    background:white;
+    margin-bottom:10px;
+}
+#userHead
+{
+    margin-top:10px;
+    display:inline;
+    }
+#userNickName
+{
+    padding:0px;
+}
+#userExit
+{
+    padding:0px;
+}
+.a2 {
+    background: url(../Images/img1.jpg) no-repeat;
+    background-size: cover;
+    height: 300px;
+    padding-top: 220px;
+    text-align:center;
+}
+
+.a3 {
+    text-align: center;
+    color: white;
+    font-size: 150px;
+    margin-top: -100px;
+    margin-bottom:20px;
+}
+.a3 a:hover
+{
+    border:2px solid white;
+    background:white;
+    background-color:transparent;
+    color:#D3CEA4;
+    border-radius:40px;
+    }
+.myBlog
+{
+    margin:0px auto;
+    padding:5px;
+    text-align:center;
+    }
+ .myBlog a
+ {
+     color:White;
+     text-decoration:none;
+     padding:8px;
+    font-size: 30px;
+    display:inline;
+    border:2px solid white;
+    border-radius:20px;
+     }
+.myBlog a:hover
+{
+    color:black;
+    background:white;
+     text-decoration:none;
+    font-size: 30px;
+    display:inline;
+    border:2px solid white;
+    border-radius:20px;
+}
+ .b
+ {
+     margin:0px;
+     background:url(../Images/img6.jpg);
+     height:550px;
+     }
+  .b2
+  {
+      background-color:#D2CFA4;
+      height:10px;
+      }
+.b3 {
+    margin: 20px 10px 0 10px;
+    float: left;
+    border:0px;
+    background-color:#f3f3f3;
+    width: 72.91666666666667%;
+}
+
+    .b3 h3 {
+        font: 18px "微软雅黑", Arial, Helvetica, sans-serif;
+        color: #444;
+        font-weight: bold;
+        background: #f3f3f3 repeat-x 20px center;
+    }
+
+    .b3 ol {
+        color: #666;
+        font-size: 14px;
+        line-height: 26px;
+    }
+
+    .b4
+    {
+        margin:10px 0px 0px 0px;
+        background-color:#D3DEF2;
+        }
+        
+     .itemHr
+     {
+         width:100%;
+         height:10px;
+         background-color:#D2CFA4;
+         }
+      .b4 .pageFooter
+      {
+          text-align:center;
+          }
+    .b5
+    {
+        color:#9B9B6F;
+        font-weight:bolder;
+        float:right;
+        }
+    .b6
+    {
+        float:left;
+        font-weight:bolder;
+        color:#669900;
+        }
+     .b7
+     {
+         margin-left:18px;
+         margin-top:5px;
+         color:#907952;
+         }
+      .b8
+      {
+          margin-top:5px;
+          display:inline;
+          float:right;
+          }
+      .b9
+      {
+          margin-top:5px;
+          display:inline;
+          float:right;
+          }
+       .b10
+       {
+           margin-top:5px;
+           float:left;
+           display:inline;
+           }
+     .b11
+     {
+        float:left;
+        font-weight:bolder;
+        color:#669900;
+        font-size:16px;
+        margin-left:20px;
+        margin-bottom:5px;
+         }
+     .b12
+     {
+         margin-top:10px;
+            background-color:#F3F3F3;
+            margin-bottom:10px;
+         }
+    #DataList1
+    {
+        width:100%;
+        }
+   #PostVisitedLabel
+   {
+       float:right;
+       font-size:small;
+       font-weight:bolder;
+       }
+   #PostPlLabel
+   {
+       font-size:small;
+       font-weight:bolder;
+       float:right;
+       }
+.sideBar {
+    margin: 20px 0 0 75%;
+    font-size: 14px;
+    border:2px;
+    border-color:Black;
+    background-color:#D2CFA4;
+}
+.blogClass
+{
+    margin-top:10px;
+    font-size:20px;
+    height:280px;
+    overflow:auto;
+    background-color:#f3f3f3;
+}
+    .sideBar h3 {
+        font-size: 25px;
+        font-weight:bolder;
+        color:#C69D55;
+        background: #f3f3f3 repeat-x center;
+    }
+
+    .sideBar ul {
+        margin-bottom: 20px;
+        margin: 10px 0;
+        overflow: hidden;
+    }
+
+        .sideBar ul li {
+            height: 25px;
+            line-height: 25px;
+            clear: both;
+            padding-left: 5px;
+            overflow: hidden;
+            padding-left: 15px;
+            background: #f3f3f3 no-repeat left center;
+        }
+ .sideBar .blogClass .blogItem
+ {
+     font-weight:bolder;
+     margin-left:20px;
+     margin-bottom:5px;
+ }
+        
+
